@@ -69,4 +69,12 @@
 			<version>${springdoc-openapi.version}</version>
 		</dependency>
 	</dependencies>
+
+	<distributionManagement>
+		<repository>
+			<id>github</id>
+			<name>GitHub radoslawdabrowski Apache Maven Packages</name>
+			<url>https://maven.pkg.github.com/radoslawdabrowski/http-commons</url>
+		</repository>
+	</distributionManagement>
 </project>
