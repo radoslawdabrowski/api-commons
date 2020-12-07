@@ -1,9 +1,9 @@
-package online.buildit.commons.resolvers;
+package online.buildit.commons.locale.resolvers;
 
 import lombok.NonNull;
 import lombok.extern.slf4j.Slf4j;
-import online.buildit.commons.enums.Characters;
-import online.buildit.commons.exceptions.AcceptLanguageHeaderIsBlankException;
+import online.buildit.commons.locale.enums.Characters;
+import online.buildit.commons.locale.exceptions.AcceptLanguageHeaderIsBlankException;
 import org.apache.commons.lang3.LocaleUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Value;

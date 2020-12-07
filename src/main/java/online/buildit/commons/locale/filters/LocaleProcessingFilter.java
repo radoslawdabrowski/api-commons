@@ -1,8 +1,8 @@
-package online.buildit.commons.filters;
+package online.buildit.commons.locale.filters;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import online.buildit.commons.resolvers.CommonLocaleResolver;
+import online.buildit.commons.locale.resolvers.CommonLocaleResolver;
 import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Component;
 import org.springframework.web.filter.OncePerRequestFilter;

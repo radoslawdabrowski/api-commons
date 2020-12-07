@@ -1,4 +1,4 @@
-package online.buildit.commons.enums;
+package online.buildit.commons.locale.enums;
 
 public final class Characters {
 
